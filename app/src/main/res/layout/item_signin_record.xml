@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/signin_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:text="2016年12月5日签到"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+           >
+            <TextView
+                android:id="@+id/begin_time"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="10dp"
+                android:text="上午"
+                android:gravity="bottom"
+                />
+            <TextView
+                android:id="@+id/am_signin"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="3"
+                android:text="时间222"
+                />
+            <TextView
+                android:id="@+id/am_signout"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="3"
+                android:text="时间222"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="下午"
+                android:layout_marginLeft="10dp"
+                android:gravity="bottom"
+                />
+            <TextView
+                android:id="@+id/pm_signin"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="3"
+                android:text="时间222"
+                />
+            <TextView
+                android:id="@+id/pm_signout"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="3"
+                android:text="时间222"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="晚上"
+                android:layout_marginLeft="10dp"
+                android:gravity="bottom"
+                />
+            <TextView
+                android:id="@+id/night_signin"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="3"
+                android:text="时间222"
+                />
+            <TextView
+                android:id="@+id/night_signout"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="3"
+                android:text="时间222"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+

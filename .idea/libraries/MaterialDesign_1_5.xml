@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="MaterialDesign-1.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.navasmdc/MaterialDesign/1.5/8a8a655f3d1f857bc46785ae28f09d0f654fbc86/MaterialDesign-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

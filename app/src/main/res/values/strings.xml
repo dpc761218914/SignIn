@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">签到</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="about_me">Github：<a href="https://github.com/dpc761218914">dpc761218914</a></string>
+    <string name="thanks_open_source">\n okgo、\n gson、\n utilcode、\n floatingactionbutton、\n material-dialogs:core 等</string>
+</resources>
+
+

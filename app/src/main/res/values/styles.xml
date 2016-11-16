@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <!--软件的基色-->
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/white</item>
+       <!--设置菜单按钮颜色-->
+        <item name="android:textColorSecondary">@color/white</item>
+        <!--设置菜单字体颜色-->
+        <item name="actionMenuTextColor">@color/blue</item>
+
+        <!--设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- toolbar弹出菜单样式，需要在toorbar中引入 -->
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>

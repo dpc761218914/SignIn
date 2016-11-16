@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark"
+        app:title="用户登录"
+        >
+    </android.support.v7.widget.Toolbar>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_floatingLabel="normal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="60dp"
+        android:hint="用户名"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        app:met_floatingLabel="normal"
+        android:inputType="textPassword"
+        android:hint="密码"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_gravity="right"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="记住密码"
+            android:gravity="center_vertical"
+            />
+        <!--默认选中materialdesign:check="true"-->
+        <com.gc.materialdesign.views.CheckBox
+            android:id="@+id/checkBox"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#1E88E5"
+            android:checked="true"
+            materialdesign:check="true"
+            android:defaultValue="true"
+            />
+    </LinearLayout>
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1E88E5"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="登录"
+        android:layout_gravity="center"
+        />
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/btn_toRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1E88E5"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="36dp"
+        android:text="去注册" />
+
+
+
+
+
+</LinearLayout>
